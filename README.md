@@ -83,7 +83,7 @@ The Tableau dashboard provides an interactive overview of each test, including:
 
 **Verdict:** ✅ Recommended for implementation, excluding Organic channel, tablet users, and users from Africa. After excluding negative segments, the expected growth reaches +15.95%.
 
-📄 [Full test card case1 (PDF)](cases/Case_1_A_B_test_card.pdf)
+📄 [Full test card - Сase1 (PDF)](cases/Case_1_A_B_test_card.pdf)
 
 ---
 
@@ -101,7 +101,7 @@ The Tableau dashboard provides an interactive overview of each test, including:
 
 **Verdict:** ✅ Recommended for implementation with exclusion of users from Asia. Keeping three recommendations for the Asian segment. Expected metric growth will be even higher after excluding the negative segment (+18.6%).
 
-📄 [Full test card case2 (PDF)](cases/Case_2_A_B_test_card.pdf)
+📄 [Full test card - Сase2 (PDF)](cases/Case_2_A_B_test_card.pdf)
 
 ---
 
@@ -117,7 +117,8 @@ The Tableau dashboard provides an interactive overview of each test, including:
 
 **Verdict:** ❌ Not recommended for implementation. The primary metric requires an impractical sample size, and the additional metric showed a significant negative effect.
 
-📄 [Full test card case3 (PDF)](cases/Case_3_A_B_test_card.pdf)
+📄 [Full test card - Сase3 (PDF)](cases/Case_3_A_B_test_card.pdf)
+
 
 ## How to Run
 
