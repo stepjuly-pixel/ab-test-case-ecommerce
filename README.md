@@ -80,6 +80,8 @@ The Tableau dashboard provides an interactive overview of each test, including:
 
 **Verdict:** ✅ Recommended for implementation, excluding Organic channel, tablet users, and users from Africa. After excluding negative segments, the expected growth reaches +15.95%.
 
+📄 [Full test card (PDF)](cases/Case_1_A_B_test_card.pdf)
+
 ---
 
 ### Case 2: Simplifying Product Selection (One Recommendation Instead of Three)
