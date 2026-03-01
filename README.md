@@ -1,4 +1,4 @@
-# A/B Testing Analysis
+# A/B Test Case Studies for E-commerce with BigQuery and Tableau
 
 ## Project Overview
 
@@ -58,7 +58,10 @@ The Tableau dashboard provides an interactive overview of each test, including:
 
 - Event comparison between control and experimental groups
 
-<img src="images/dashboard.png" width="800" />
+<img src="images/dashboard.png" width="600" />
+
+
+🔗 [Interactive dashboard on Tableau Public](https://public.tableau.com/views/AB_17520751753060/ABTest?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Test Cases & Key Insights
 
@@ -80,7 +83,7 @@ The Tableau dashboard provides an interactive overview of each test, including:
 
 **Verdict:** ✅ Recommended for implementation, excluding Organic channel, tablet users, and users from Africa. After excluding negative segments, the expected growth reaches +15.95%.
 
-📄 [Full test card (PDF)](cases/Case_1_A_B_test_card.pdf)
+📄 [Full test card case1 (PDF)](cases/Case_1_A_B_test_card.pdf)
 
 ---
 
@@ -98,6 +101,8 @@ The Tableau dashboard provides an interactive overview of each test, including:
 
 **Verdict:** ✅ Recommended for implementation with exclusion of users from Asia. Keeping three recommendations for the Asian segment. Expected metric growth will be even higher after excluding the negative segment (+18.6%).
 
+📄 [Full test card case2 (PDF)](cases/Case_2_A_B_test_card.pdf)
+
 ---
 
 ### Case 3: Simplifying Payment Information (Google Pay / Apple Pay)
@@ -112,19 +117,21 @@ The Tableau dashboard provides an interactive overview of each test, including:
 
 **Verdict:** ❌ Not recommended for implementation. The primary metric requires an impractical sample size, and the additional metric showed a significant negative effect.
 
+📄 [Full test card case3 (PDF)](cases/Case_3_A_B_test_card.pdf)
+
 ## How to Run
 
 1. Clone this repository
 
-2. Open `sql/ab_test_query.sql` to review the BigQuery query
+2. Open [`sql/ab_test_query.sql`](sql/ab_test_query.sql) to review the BigQuery query
 
-3. Explore the Tableau dashboard (screenshot in `images/` or open the `.twbx` file in Tableau)
+3. Explore the [interactive dashboard on Tableau Public](https://public.tableau.com/views/AB_17520751753060/ABTest?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) or open the [`dashboard/AB.twbx`](dashboard/AB.twbx) file in Tableau
 
-4. Review individual test case reports in the `cases/` folder
+4. Review individual test case reports in the [`cases/`](cases/) folder
 
 ## Project Structure
-
-ab-test-analysis/
+```
+ab-test-case-ecommerce/
 - sql/
   - ab_test_query.sql
 - cases/
@@ -136,3 +143,4 @@ ab-test-analysis/
 - images/
   - dashboard.png
 - README.md
+```
