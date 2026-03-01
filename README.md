@@ -32,17 +32,17 @@ Each test case follows a structured analytical approach:
 
 The SQL query joins multiple BigQuery tables to build a unified analytical dataset:
 
-- `DA.ab_test` – A/B test group assignments
+- `ab_test` – A/B test group assignments
 
-- `DA.session` – session dates and IDs
+- `session` – session dates and IDs
 
-- `DA.session_params` – session parameters (country, device, continent, channel)
+- `session_params` – session parameters (country, device, continent, channel)
 
-- `DA.order` – order data
+- `order` – order data
 
-- `DA.event_params` – event-level data (add_to_cart, begin_checkout, add_payment_info, etc.)
+- `event_params` – event-level data (add_to_cart, begin_checkout, add_payment_info, etc.)
 
-- `DA.account_session` – new account creation events
+- `account_session` – new account creation events
 
 The query aggregates data using CTEs and combines results via `UNION ALL` into a single output with dimensions: `date`, `country`, `device`, `continent`, `channel`, `test`, `test_group`, `event_name`, and `value`.
 
