@@ -133,15 +133,20 @@ The Tableau dashboard provides an interactive overview of each test, including:
 ## Project Structure
 ```
 ab-test-case-ecommerce/
-- sql/
-  - ab_test_query.sql
-- cases/
-  - Case_1_A_B_test_card.pdf
-  - Case_2_A_B_test_card.pdf
-  - Case_3_A_B_test_card.pdf
-- dashboard/
-  - AB.twbx
-- images/
-  - dashboard.png
-- README.md
+
+  sql/
+    ab_test_query.sql
+
+  cases/
+    Case_1_A_B_test_card.pdf
+    Case_2_A_B_test_card.pdf
+    Case_3_A_B_test_card.pdf
+
+  dashboard/
+    AB.twbx
+
+  images/
+    dashboard.png
+
+  README.md
 ```
